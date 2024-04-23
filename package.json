@@ -1,0 +1,16 @@
+{
+  "name": "building-blox-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A project to learn how to write a frontend framework",
+  "main": "index.js",
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/runtime"
+  ]
+}
